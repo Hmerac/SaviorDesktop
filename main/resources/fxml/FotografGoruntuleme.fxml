@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="829.0" style="-fx-background-color: #fff;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FotografGoruntulemeController">
+   <children>
+      <ImageView fx:id="photo" fitHeight="450.0" fitWidth="800.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton id="oncekiButonu" fx:id="oncekiButonu" onAction="#handleoncekiButonuAction" layoutX="10.0" layoutY="214.0" />
+      <JFXButton id="sonrakiButonu" fx:id="sonrakiButonu" onAction="#handlesonrakiButonuAction" layoutX="762.0" layoutY="214.0" />
+      <Label layoutX="396.0" layoutY="475.0" text="0/0" textFill="#0009ff">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

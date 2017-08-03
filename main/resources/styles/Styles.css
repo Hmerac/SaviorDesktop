@@ -1,0 +1,63 @@
+.jfx-button {
+    -fx-cursor: hand
+}
+
+#girisButonu {
+    -fx-background-color: #cc2828
+}
+
+#girisButonu:hover {
+    -fx-background-color: #b72424
+}
+
+#menuButonlari:hover {
+    -fx-opacity: 0.65
+}
+
+#menuButonlari:pressed {
+    -fx-font-size: 13px
+}
+
+#menuButonlari:focused {
+    -fx-opacity: 0.75
+}
+
+#fotografButonu {
+    -fx-background-color: #4c4cc2
+}
+
+#fotografButonu:hover {
+    -fx-background-color: #3a3aaa
+}
+
+#oncekiButonu {
+    -fx-graphic: url("/images/prevbutton.png");
+}
+
+#sonrakiButonu {
+    -fx-graphic: url("/images/nextbutton.png");
+}
+
+#ekipButonu {
+    -fx-background-color: #cc2828
+}
+
+#ekipButonu:hover {
+    -fx-background-color: #b72424
+}
+
+#mesajButonlari {
+    -fx-background-color: #4c4cc2
+}
+
+#mesajButonlari:hover {
+    -fx-background-color: #3a3aaa
+}
+
+#sifreGuncelle {
+    -fx-background-color: #4caf50
+}
+
+#sifreGuncelle:hover {
+    -fx-background-color: #43a047
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="971.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MasterController">
+    <children>
+        <AnchorPane layoutX="223.0" prefHeight="511.0" prefWidth="221.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="654.0" fitWidth="221.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <image>
+                        <Image url="@../images/lefttabbg.jpg" />
+                    </image>
+                    <viewport>
+                        <Rectangle2D />
+                    </viewport>
+                </ImageView>
+                <ImageView fitHeight="98.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="24.0">
+                    <image>
+                        <Image url="@../images/logo.gif" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="41.0" fitWidth="91.0" layoutX="120.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="50.0">
+                    <image>
+                        <Image url="@../images/logoname.png" />
+                    </image>
+                </ImageView>
+                <Label id="name" fx:id="name" layoutX="74.0" layoutY="149.0" prefHeight="18.0" prefWidth="60.0" text="temp1" textFill="WHITE" AnchorPane.topAnchor="149.0">
+                    <font>
+                        <Font name="Century Gothic" size="14.0" />
+                    </font>
+                </Label>
+                <JFXButton id="menuButonlari" fx:id="anasayfaButonu" layoutY="218.0" onAction="#handleanasayfaButonuAction" opacity="0.5" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #000000;" text="Anasayfa" textFill="WHITE" AnchorPane.leftAnchor="0.0">
+                    <font>
+                        <Font name="Century Gothic" size="14.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton id="menuButonlari" fx:id="kazaButonu" layoutY="258.0" onAction="#handlekazaButonuAction" opacity="0.5" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #000000;" text="Kaza Bilgisi" textFill="WHITE" AnchorPane.leftAnchor="0.0">
+                    <font>
+                        <Font name="Century Gothic" size="14.0" />
+                    </font>
+                </JFXButton>
+                <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="88.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/kullanici.png" />
+                    </image>
+                </ImageView>
+                <JFXButton id="menuButonlari" fx:id="oturumKapaButonu" layoutY="593.0" onAction="#handleoturumKapaButonuAction" opacity="0.5" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: #000000;" text="Oturumu Kapat" textFill="WHITE" AnchorPane.leftAnchor="0.0">
+                    <font>
+                        <Font name="Century Gothic" size="14.0" />
+                    </font>
+                </JFXButton>
+            <ImageView fitHeight="34.0" fitWidth="36.0" layoutX="18.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/operator.png" />
+               </image>
+            </ImageView>
+            <Label id="lastName" fx:id="lastName" layoutX="138.0" layoutY="149.0" prefHeight="18.0" prefWidth="69.0" text="temp2" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="content" layoutX="221.0" prefHeight="511.0" prefWidth="750.0" style="-fx-background-color: #fff;" stylesheets="@../styles/Styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="221.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        </AnchorPane>
+    </children>
+</AnchorPane>
