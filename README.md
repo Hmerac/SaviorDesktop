@@ -6,7 +6,7 @@ When an accident happens in that area, the officers will be notified by this app
 ### Savior Mobile Platform
 Volunteered people registered to this application are responsible for sending information to the officers by this application. They only need to take photographs by their mobile phone, describe the area and report those with just clicking a button we provide.
 
-### Idea:
+### Idea
 The purpose of the project (Mobile and JavaFX) is to increase survival rate of people who suffer from accidents. We want to achieve that by giving officers trustful, exact and immediate information.
 
 ### Technologies
